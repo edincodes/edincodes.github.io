@@ -1,0 +1,115 @@
+/* FORMATEO DE LOS AJUSTES POR DEFECTO */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CONTENIDO GENERAL */
+#contenedor {
+    background-color: white;
+}
+
+/* ACERCA DEL DESARROLLADOR */
+#perfil {
+    padding-top: 10px;
+    /* background-color: #ccc; */
+    width: 80%;
+    display:block;
+    margin:auto;
+}
+
+.user-photo {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid #9A00FF; */
+    border-radius: 100%;
+    display:block;
+    margin:auto;
+}
+
+/* HOLA MUNDO */
+h1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    /* background-color: #CCC; */
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    display:block;
+    margin:auto;
+}
+
+div .presentacion {
+    width: 80%;
+    border: 2px solid #d3d3d3;
+    border-radius: 20px;
+    /* background-color: #ccc; */
+    display: block;
+    margin: auto;
+}
+
+/* ENLACES */
+.aboutme {
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: #2C2E36;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+/* ENLACES GENERALES */
+
+.item-enlaces {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    /* background-color: #CCC; */
+    width: 80%;
+    display:block;
+    margin:auto;
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.enlaces {
+    border: 2px solid #9A00FF;
+    border-radius: 50px;
+    padding: 15px;
+    display:block;
+    margin:auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2C2E36;
+    margin-bottom: 20px;
+    transition: background-color 1s;
+}
+
+/* ENLACES GENERALES:HOVER  */
+.enlaces:hover {
+    /* border: 2px solid #9A00FF; */
+    border-radius: 50px;
+    padding: 15px;
+    display:block;
+    margin:auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+    
+    background-color: #9A00FF;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* background-color: #ccc; */
+}
